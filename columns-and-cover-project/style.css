@@ -181,8 +181,38 @@ article footer {
   .article-img-wrapper {
     margin: .5rem 0 0 2rem;
   }
+  
+  .main-text {
+    columns: 2;
+  }
+
+  .main-text p {
+    margin-top: 0;
+  }
+
 }
 
 @media (min-width: 1000px) {
+  .fancy-text {
+    font-size: var(--xxl);
+  }
+
+  article {
+   display: block;
+  }
+
+  .article-img-wrapper {
+    max-width: 100%;
+    height: 500px;
+    margin: 3rem 0 0 0;
+  }
   
+  .main-text {
+    columns: 3;
+  }
+
+  .main-text p {
+    margin-top: 0;
+  }
+
 }
